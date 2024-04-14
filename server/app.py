@@ -4,7 +4,6 @@ from keras.models import load_model
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from util.help import predict_future, MAX_DATE
-
 app = Flask(__name__)
 CORS(app)
 
